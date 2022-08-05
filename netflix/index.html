@@ -12,13 +12,46 @@
     <div id="container">
 
         <header>
-           <h1>NET<span class="title">FLIX</span></h1>
+           <h1 id="baslik">NET<span class="title">FLIX</span></h1>
            <span class="description">Thank you for signing up at Netflix. Tell us more about your self </span>
         </header>
 
-        <section>
+        <div class="form-wrapper">
+        <div class="form-area">
+        <div class="form-control">
+            <div class="label-wrapper">
+                <label for="name" class="form-label">Name</label>
+            </div>
+            <input type="text" class="form-input" placeholder="Enter your name" id="name">
+        </div>
 
-        </section>
+        <div class="form-control">
+            <div class="label-wrapper">
+                <label for="age" class="form-label">Age</label>
+            </div>
+            <input type="number" class="form-input" placeholder="Enter your age" id="age">
+        </div>
+
+        <div class="form-control">
+            <div class="label-wrapper">
+                <label for="e-mail" class="form-label">E-mail</label>
+            </div>
+            <input type="text" class="form-input" placeholder="Enter your e-mail" id="e-mail">
+        </div>
+
+        <div class="form-control">
+            <div class="label-wrapper">
+                <label for="content-type" class="form-label">Content-Type</label>
+            </div>
+            <select name="content-type" id="content-type" class="form-input">
+                <option value="series">Series</option>
+                <option value="movies">Movies</option>
+                <option value="animation">Animation</option>
+                <option value="documentary">Documentary</option>
+            </select>
+        </div>
+
+        </div>
 
         </div>
 

@@ -40,3 +40,38 @@ header {
 section{
     width: 500px;
 }
+
+.form-wrapper {
+    width: 40%;
+    background: rgba (0, 0, 0, 0.8);
+    height: 900px;
+    margin: 3rem auto 0;
+}
+
+.form-area {
+    width: 100%;
+    padding-top: 2rem;
+
+}
+.form-control {
+    width: 96%;
+    margin: auto;
+}
+.label-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.form-label {
+    color: #fff;
+    display: block;
+    margin-bottom: 7px;
+}
+.form-input {
+    display: block;
+    width: 80%;
+    height: 60px;
+    background-color: #fff;
+    padding-left: 2%;
+    margin: auto;
+}
