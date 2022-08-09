@@ -8,8 +8,81 @@
     <title>Form</title>
 </head>
 <body>
-    <h1>Clarusway Survey Form</h1>
-    <p>Thank you for taking the time to help us improve the platform</p>
+    <div id="container">
+        <header id="header">
+        <h1 id="title">Clarusway Survey Form</h1>
+        <p id="paragraph">Thank you for taking the time to help us improve the platform</p>
+    </header>
+        
+    <section id="survey-form-container">
+        <form action="result.html" method="get">
+            <div class="input-box">
+                <label for="name">Name</label>
+                <br />
+                <input type="text" name="adı" id="name" placeholder="Enter your name" />
+            </div>
+
+            <div class="input-box">
+                <label for="surname">Surname</label>
+                <br />
+                <input type="text" id="surname" name="Surname" placeholder="Enter your Surname" />
+            </div>
+
+            <div class="input-box">
+                <label for="email">Email</label>
+                <br />
+                <input type="email" name="email" id="email" placeholder="user@clarusway.com" />
+            </div>
+
+            <div class="input-box">
+                <label for="option">Which option best describes your current role?</label>
+                <br />
+                <select name="option" id="dropdown">
+                    <option value="roles">Select current role?</option>
+                </select>
+            </div>
+
+            <div class="input-box" id="radio">
+                <label for="">Would you recommend Clarusway to a friend?</label>
+                <br />
+                <input type="radio" name="recommend" id="first-radio" value="Yes" checked/>
+                <label for="first-radio" >Definitely, Yes</label>
+                <br />
+                <input type="radio" name="recommend" id="second-radio" value="Maybe"  />
+                <label for="second-radio">Maybe</label>
+                <br />
+                <input type="radio" name="recommend" id="third-radio" value="Not sure" />
+                <label for="third-radio">Not sure</label>
+                <br />
+                <input type="radio" name="recommend" id="fourth-radio" value="No" />
+                <label for="third-radio">Definitely, No</label>
+            </div>
+
+            <div class="input-box">
+                <label for="option2">What is your favorite feature of Clarusway?</label>
+                <br />
+                <select name="option" id="dropdown">
+                    <option value="roles2">Select an option</option>
+                </select>
+            </div>
+
+            <div class="input-box" id="checkbox">
+                <label for="">Movie Type</label>
+                <br />
+                <input type="checkbox" name="movie" id="first-check" value="Comedy" />
+                <label for="first-check">Comedy</label>
+                <br />
+                <input type="checkbox" name="movie" id="second-check" value="Action" />
+                <label for="second-check">Action</label>
+                <br />
+                <input type="checkbox" name="movie" id="third-check" value="Romance" />
+                <label for="third-check">Romance</label>
+            </div>
+
+
+
+
+    </div>
     
     
 </body>
