@@ -19,13 +19,13 @@
             <div class="input-box">
                 <label for="name">Name</label>
                 <br />
-                <input type="text" name="adı" id="name" placeholder="Enter your name" />
+                <input type="text" name="name" id="name" placeholder="Enter your name" />
             </div>
 
             <div class="input-box">
                 <label for="surname">Surname</label>
                 <br />
-                <input type="text" id="surname" name="Surname" placeholder="Enter your Surname" />
+                <input type="text" id="surname" name="surname" placeholder="Enter your Surname" />
             </div>
 
             <div class="input-box">
@@ -67,23 +67,32 @@
             </div>
 
             <div class="input-box" id="checkbox">
-                <label for="">Movie Type</label>
+                <label for="">What would you like to see improved? (Check all that apply)</label>
                 <br />
-                <input type="checkbox" name="movie" id="first-check" value="Comedy" />
-                <label for="first-check">Comedy</label>
+                <input type="checkbox" name="improved" id="first-check" value="Front-end" />
+                <label for="first-check">Front-end Projects</label>
                 <br />
-                <input type="checkbox" name="movie" id="second-check" value="Action" />
-                <label for="second-check">Action</label>
+                <input type="checkbox" name="improved" id="second-check" value="Back-end" />
+                <label for="second-check">Back-end Projects</label>
                 <br />
-                <input type="checkbox" name="movie" id="third-check" value="Romance" />
-                <label for="third-check">Romance</label>
+                <input type="checkbox" name="improved" id="third-check" value="Data Science" />
+                <label for="third-check">Data Science</label>
+                <br />
+                <input type="checkbox" name="improved" id="fourth-check" value="Additional Courses" />
+                <label for="fourth-check">Additional Courses</label>
             </div>
 
+            <div class="input-box" id="comment">
+                <label for="comment">Any comments or suggestions?</label>
+                <br />
+                <textarea name="comment" id="comment" placeholder="Enter your comment here... Thanks for your"></textarea>
+            </div>
 
-
-
+            <div class="form-submit" id="submit">
+                <button type="submit" id="form-button">Submit</button>
+            </div>
+        </form>
+    </section>
     </div>
-    
-    
 </body>
 </html>
